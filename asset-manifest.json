@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.543d64da.chunk.css",
+    "main.js": "/portfolio/static/js/main.b60420f7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b60420f7.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.cc1e1739.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.cc1e1739.js.map",
+    "static/js/2.549c21be.chunk.js": "/portfolio/static/js/2.549c21be.chunk.js",
+    "static/js/2.549c21be.chunk.js.map": "/portfolio/static/js/2.549c21be.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.b7cff644f6c654db3f72cc9f983cece3.js": "/portfolio/precache-manifest.b7cff644f6c654db3f72cc9f983cece3.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.543d64da.chunk.css.map": "/portfolio/static/css/main.543d64da.chunk.css.map",
+    "static/js/2.549c21be.chunk.js.LICENSE.txt": "/portfolio/static/js/2.549c21be.chunk.js.LICENSE.txt",
+    "static/media/Dmitriy2020_circle.png": "/portfolio/static/media/Dmitriy2020_circle.ffa31b66.png",
+    "static/media/arrow.svg": "/portfolio/static/media/arrow.d2ec9ff0.svg",
+    "static/media/chat.svg": "/portfolio/static/media/chat.5b2a5d48.svg",
+    "static/media/medal.svg": "/portfolio/static/media/medal.3306b8d7.svg",
+    "static/media/Section_1.module.css": "/portfolio/static/media/space_bg.94d93db2.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc1e1739.js",
+    "static/js/2.549c21be.chunk.js",
+    "static/css/main.543d64da.chunk.css",
+    "static/js/main.b60420f7.chunk.js"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="54px" viewBox="0 0 60 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>chat</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M51,0 L9,0 C4.03173825,0.0053711 0.0053711,4.03173825 0,9 L0,35 C0.0053711,39.9682617 4.03173825,43.9946289 9,44 L11.7797851,44 L10.0200195,52.7998047 C9.944336,53.1782226 10.0932617,53.565918 10.4018555,53.796875 C10.7104492,54.027832 11.1245117,54.0605469 11.4658203,53.8808594 L30.2470703,44 L51,44 C55.9682617,43.9946289 59.9946289,39.9682617 60,35 L60,9 C59.9946289,4.03173825 55.9682617,0.0053711 51,0 Z" id="chat" fill="#555555" fill-rule="nonzero" transform="translate(30.000000, 26.997981) scale(-1, 1) translate(-30.000000, -26.997981) "></path>
+    </g>
+</svg>

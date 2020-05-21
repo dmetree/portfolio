@@ -1,6 +1,6 @@
 .section_4 {
     width: 100vw;
-    height: 90vh;
+    /* height: 90vh; */
 }
 
 .section_4 {
@@ -24,7 +24,7 @@
     width: 60vw;
     color: #fff;
     margin: 4vw;
-    padding: 2vw;
+    padding: 4vw;
     border-radius: 10px;
     background-color: #222222;
     border: 1px solid rgb(80, 80, 80);
@@ -87,7 +87,33 @@
     color: black;
 }
 
-.workTogether_call{
+.workTogether_call {
     padding: 15px 10px;
     margin: 0;
+}
+
+.copyright {
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .workTogether {
+        flex-direction: column;
+    }
+    .media_item {
+        width: 26px;
+    }
+    .workTogether_call {
+        padding: 10px 30px;
+    }
+    .medal {
+        width: 20vw;
+        margin: 40px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .media_item {
+        width: 20px;
+    }
 }

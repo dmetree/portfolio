@@ -27,9 +27,9 @@ function Section_1() {
             <section className={s.intro}>
                 <div className={s.intro_profile}>
 
-                    <h1 id="introduction" className={s.introduction}>Hi, I'm Dmitriy Bondarenko<br />Frontend Developer</h1>
+                    <h1  className={s.introduction}>Hi, I'm Dmitriy Bondarenko<br />Frontend Developer</h1>
 
-                    <button id="intro_btn" className={s.intro_btn}>Let's get to know each other</button>
+                    <button className={s.intro_btn}>Let's get to know each other</button>
                     <div className={s.intro_arrow}>
                         <img className={s.intro_arrow_svg} src={arrowIcon} alt="Arrow" />
                     </div>

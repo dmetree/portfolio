@@ -54,6 +54,7 @@ function Section_4() {
                         <img className={s.media_item} src={Email} alt="Email" />
                     </a>
                 </div>
+                <p className={s.copyright}>&copy; Created by me</p>
             </section>
         </div>
     )

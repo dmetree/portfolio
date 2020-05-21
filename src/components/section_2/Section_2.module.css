@@ -20,8 +20,8 @@
 }
 
 .do_item {
-    width: 15vw;
-    min-height: 28vh;
+    width: 18vw;
+    height: 320px;
     padding: 2vw;
     margin: 2vw;
     border-radius: 10px;
@@ -61,7 +61,6 @@
 }
 
 .do_icon {
-    /* width: 50px; */
     height: 50px;
 }
 
@@ -72,10 +71,10 @@
 }
 
 .my_image {
-    width: 220px;
+    width: 10vw;
     margin: 0 auto;
     border-radius: 120px;
-    box-shadow: 0px 0px 18px #0d0d55;
+    box-shadow: 0px 0px 50px #0d0d55;
     transition: 0.3s;
 }
 
@@ -89,4 +88,34 @@
 
 .skill_two_item_h3 {
     opacity: .8;
+}
+
+@media only screen and (max-width: 1240px) {
+    .do_item {
+        height: 280px;
+    }
+}
+
+@media only screen and (max-width: 945px) {
+    .do_item_medal {
+        width: 5vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .my_image {
+        width: 20vw;
+    }
+    .do_items {
+        flex-direction: column;
+    }
+    .do_item {
+        width: 60vw;
+        height: 200px;
+        padding: 5vw;
+        margin: 5vw;
+    }
+    .do_item_medal {
+        width: 8vw;
+    }
 }

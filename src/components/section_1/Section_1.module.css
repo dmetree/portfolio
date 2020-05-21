@@ -22,8 +22,8 @@
     height: 60px;
     background-color: rgb(255, 255, 255, .9);
     border: 1px solid rgb(255, 255, 255, .9);
-    right: 100px;
-    bottom: 100px;
+    right: 5vw;
+    bottom: 5vh;
     border-radius: 100px;
     z-index: 5;
     display: flex;
@@ -51,8 +51,8 @@
     position: fixed;
     width: 60px;
     height: 60px;
-    right: 100px;
-    top: 100px;
+    right: 5vw;
+    top: 5vh;
     font-weight: 800;
     border: 1px solid rgb(255, 255, 255, .9);
     border-radius: 50px;
@@ -131,4 +131,21 @@
 .intro_arrow {
     opacity: .8;
     position: relative;
+}
+
+@media only screen and (max-width: 1240px) {
+    .intro_btn {
+        font-size: 24px;
+    }
+    .chat_icon, .langSelector {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 945px) {
+    .chat_icon, .langSelector {
+        width: 40px;
+        height: 40px;
+    }
 }

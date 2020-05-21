@@ -1,0 +1,56 @@
+.section_3 {
+    width: 100vw;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2 {
+    color: #fff;
+}
+
+.portfolio_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.portfolio_item {
+    width: 15vw;
+    min-height: 30vh;
+    padding: 2vw;
+    margin: 2vw;
+    border-radius: 10px;
+    background-color: #222222;
+    border: 1px solid rgb(80, 80, 80);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition-duration: .5s;
+}
+
+.portfolio_item:hover {
+    background-color: #5f5f5f;
+}
+
+.portfolio_item:hover .project_link {
+    background-color: rgb(141, 141, 141);
+}
+
+.project_link {
+    padding: 5px 10px;
+    color: #fff;
+    background-color: rgb(24, 57, 124);
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.project_link:hover {
+    color: #000;
+}

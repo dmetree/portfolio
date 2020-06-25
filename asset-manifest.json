@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4e473e1e.chunk.css",
-    "main.js": "/portfolio/static/js/main.1594b971.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1594b971.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ba13bcd5.chunk.css",
+    "main.js": "/portfolio/static/js/main.ebc6a17f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ebc6a17f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.cc1e1739.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.cc1e1739.js.map",
-    "static/js/2.ccf4a369.chunk.js": "/portfolio/static/js/2.ccf4a369.chunk.js",
-    "static/js/2.ccf4a369.chunk.js.map": "/portfolio/static/js/2.ccf4a369.chunk.js.map",
+    "static/js/2.f9f1fc84.chunk.js": "/portfolio/static/js/2.f9f1fc84.chunk.js",
+    "static/js/2.f9f1fc84.chunk.js.map": "/portfolio/static/js/2.f9f1fc84.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.193bc14e99219209e6aa6fd9ba427f94.js": "/portfolio/precache-manifest.193bc14e99219209e6aa6fd9ba427f94.js",
+    "precache-manifest.8421c66d11c7890ed1d3484d7da837f6.js": "/portfolio/precache-manifest.8421c66d11c7890ed1d3484d7da837f6.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.4e473e1e.chunk.css.map": "/portfolio/static/css/main.4e473e1e.chunk.css.map",
-    "static/js/2.ccf4a369.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ccf4a369.chunk.js.LICENSE.txt",
-    "static/js/main.1594b971.chunk.js.LICENSE.txt": "/portfolio/static/js/main.1594b971.chunk.js.LICENSE.txt",
+    "static/css/main.ba13bcd5.chunk.css.map": "/portfolio/static/css/main.ba13bcd5.chunk.css.map",
+    "static/js/2.f9f1fc84.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f9f1fc84.chunk.js.LICENSE.txt",
+    "static/js/main.ebc6a17f.chunk.js.LICENSE.txt": "/portfolio/static/js/main.ebc6a17f.chunk.js.LICENSE.txt",
     "static/media/Dmitriy2020_circle.png": "/portfolio/static/media/Dmitriy2020_circle.ffa31b66.png",
     "static/media/arrow.svg": "/portfolio/static/media/arrow.d2ec9ff0.svg",
     "static/media/chat.svg": "/portfolio/static/media/chat.5b2a5d48.svg",
     "static/media/medal.svg": "/portfolio/static/media/medal.3306b8d7.svg",
-    "static/media/Section_1.module.css": "/portfolio/static/media/space_bg.94d93db2.jpeg"
+    "static/media/Section_1.module.css": "/portfolio/static/media/space_bg.94d93db2.jpeg",
+    "static/media/ufo_bird.svg": "/portfolio/static/media/ufo_bird.c8df3d3d.svg",
+    "static/media/ufo_bird2.svg": "/portfolio/static/media/ufo_bird2.e0ed1143.svg",
+    "static/media/ufo_bird3.svg": "/portfolio/static/media/ufo_bird3.3c9fc705.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cc1e1739.js",
-    "static/js/2.ccf4a369.chunk.js",
-    "static/css/main.4e473e1e.chunk.css",
-    "static/js/main.1594b971.chunk.js"
+    "static/js/2.f9f1fc84.chunk.js",
+    "static/css/main.ba13bcd5.chunk.css",
+    "static/js/main.ebc6a17f.chunk.js"
   ]
 }

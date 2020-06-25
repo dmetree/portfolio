@@ -144,22 +144,28 @@
 .comet_one {
     width: 5vw;
     position: absolute;
-    top: 20%;
+    top: 12%;
     left: 48%;
+    z-index: -4;
+    opacity: .7;
 }
 
 .comet_two {
     width: 5vw;
     position: absolute;
-    top: 20%;
-    left: 48%;
+    top: 15%;
+    left: 50%;
+    z-index: -4;
+    opacity: .7;
 }
 
 .comet_three {
     width: 5vw;
     position: absolute;
-    top: 20%;
-    left: 48%;
+    top: 15%;
+    left: 46%;
+    z-index: -4;
+    opacity: .7;
 }
 
 @media only screen and (max-width: 1240px) {

@@ -12,7 +12,6 @@ import UFO3 from '../../assets/imgs/ufo_bird3.svg'
 
 
 class Section_1 extends Component {
-
     componentDidMount() {
         let animateText = new gsap.timeline(),
             mySplitText = new SplitText("#intro", { type: "words,chars" }),
@@ -24,16 +23,13 @@ class Section_1 extends Component {
         gsap.from("#action_btn", 1, { delay: 2, opacity: 0, x: -100 });
         gsap.from("#arrow", .5, { delay: 3, opacity: 0, y: 30 });
 
-
-    
+// UFO on the move
             let animateUFOone = new gsap.timeline({ repeat: -1 });
-        animateUFOone.to('#ufo_one', 7, { ease: "Power0.easeNone", rotationY: 720, rotationX: 360, transformOrigin: "40px -40px" })
-
+        animateUFOone.to('#ufo_one', 7, { delay:5, ease: "Power0.easeNone", rotationY: 720, rotationX: 360, transformOrigin: "140px -140px" })
             let animateUFOtwo = new gsap.timeline({ repeat: -1 });
-        animateUFOtwo.to('#ufo_two', 12, { ease: "Power0.easeNone", rotationY: 1080, rotationX: 360, transformOrigin: "-40px 40px" })
-
+        animateUFOtwo.to('#ufo_two', 12, { delay:5, ease: "Power0.easeNone", rotationY: 1080, rotationX: 360, transformOrigin: "-140px 140px" })
             let animateUFOthree = new gsap.timeline({ repeat: -1 });
-        animateUFOthree.to('#ufo_three', 12, { ease: "Power0.easeNone", rotationY: 360, rotationX: 1080, transformOrigin: "-40px 40px" })
+        animateUFOthree.to('#ufo_three', 12, { delay:5, ease: "Power0.easeNone", rotationY: 360, rotationX: 720, transformOrigin: "-140px 140px" })
 
     }
 

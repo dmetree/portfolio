@@ -63,6 +63,7 @@
     align-items: center;
     transition: 0.3s;
     cursor: pointer;
+    display: none;
 }
 
 .langSelector:hover {
@@ -147,5 +148,8 @@
     .chat_icon, .langSelector {
         width: 40px;
         height: 40px;
+    }
+    .chat_svg {
+        height: 20px;
     }
 }

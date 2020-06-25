@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { Component } from 'react'
 import s from './Section_4.module.css'
-import Medal from '../../assets/imgs/medal.svg'
 
+import ScrollTrigger from './../../js/ScrollTrigger'
+import { gsap, } from "gsap"
+
+import Medal from '../../assets/imgs/medal.svg'
 import Email from '../../assets/imgs/media_email_50.png'
 import Github from '../../assets/imgs/media_github_50.png'
 import LinkedIn from '../../assets/imgs/media_linkedin_50.png'
@@ -10,12 +13,31 @@ import Skype from '../../assets/imgs/media_skype_50.png'
 
 
 
-function Section_4() {
+class Section_4 extends Component {
+    componentDidMount(){
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.from("#workTogether", {
+            scrollTrigger: {
+                trigger: "#workTogether",
+                toggleActions: "play none none none",
+                start: "top, +=500",
+                end: "+=200"
+            },
+            duration: .3,
+            rotation: -5,
+            scale: 0.9,
+            autoAlpha: 0
+        });
+
+    }
+
+    render(){
     return (
         <div>
             <section className={s.section_4}>
                 <img className={s.medal} src={Medal} alt="Medal" />
-                <div className={s.final}>
+                <div id="workTogether" className={s.final}>
 
                     <div className={s.workTogether}>
                         <h2 className={s.workTogether_header}>Start a project?</h2>
@@ -58,6 +80,7 @@ function Section_4() {
             </section>
         </div>
     )
+    }
 }
 
 export default Section_4

@@ -78,10 +78,6 @@
     transition: 0.3s;
 }
 
-.my_image_wrapper:hover .my_image {
-    transform: rotateY(180deg);
-}
-
 .skills_two_h2 {
     opacity: .8;
 }

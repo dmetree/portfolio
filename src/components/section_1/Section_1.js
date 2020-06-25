@@ -1,8 +1,8 @@
-import React, { Component, useEffect, useRef, useState, useMemo } from 'react'
+import React, { Component } from 'react'
 import s from './Section_1.module.css'
 import SplitText from './../../js/SplitText'
-import { gsap, TimelineLite } from "gsap";
-
+import { gsap } from "gsap";
+// import ScrollTrigger from './../../js/ScrollTrigger'
 
 import chatIcon from '../../assets/imgs/chat.svg'
 import arrowIcon from '../../assets/imgs/arrow.svg'
@@ -13,6 +13,8 @@ import UFO3 from '../../assets/imgs/ufo_bird3.svg'
 
 class Section_1 extends Component {
     componentDidMount() {
+        // gsap.registerPlugin(ScrollTrigger);
+
         let animateText = new gsap.timeline(),
             mySplitText = new SplitText("#intro", { type: "words,chars" }),
             chars = mySplitText.chars;
@@ -24,13 +26,15 @@ class Section_1 extends Component {
         gsap.from("#arrow", .5, { delay: 3, opacity: 0, y: 30 });
 
 // UFO on the move
+        let moveUFO = () => {
             let animateUFOone = new gsap.timeline({ repeat: -1 });
         animateUFOone.to('#ufo_one', 7, { delay:5, ease: "Power0.easeNone", rotationY: 720, rotationX: 360, transformOrigin: "140px -140px" })
             let animateUFOtwo = new gsap.timeline({ repeat: -1 });
         animateUFOtwo.to('#ufo_two', 12, { delay:5, ease: "Power0.easeNone", rotationY: 1080, rotationX: 360, transformOrigin: "-140px 140px" })
             let animateUFOthree = new gsap.timeline({ repeat: -1 });
         animateUFOthree.to('#ufo_three', 12, { delay:5, ease: "Power0.easeNone", rotationY: 360, rotationX: 720, transformOrigin: "-140px 140px" })
-
+        }
+        moveUFO();
     }
 
 

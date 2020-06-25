@@ -1,14 +1,83 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 import s from './Section_3.module.css'
+import { gsap, } from "gsap"
+import ScrollTrigger from './../../js/ScrollTrigger'
+import SplitText from './../../js/SplitText'
 
-function Section_3() {
+class Section_3 extends Component {
+
+    componentDidMount(){
+        gsap.registerPlugin(ScrollTrigger);
+
+        // let animateText = new gsap.timeline(),
+        //     mySplitText = new SplitText("#s3h2", { type: "words,chars" }),
+        //     chars = mySplitText.chars;
+
+        // gsap.set("#s3h2", { perspective: 400 });
+        // animateText.staggerFrom(chars, 1, { delay: 1, duration: 0.6, scale: 4, autoAlpha: 0, rotationX: -180, transformOrigin: "100% 50%", ease: "back.out", stagger: 0.02 });
+
+        gsap.from("#s3h2", {
+            scrollTrigger: {
+                trigger: "#s3h2",
+                toggleActions: "play none none none",
+                start: "top, +=500"
+            },
+            opacity: 0,
+            y: 60,
+        });  
+
+        gsap.from("#porto_1", {
+            scrollTrigger: {
+                trigger: "#porto_1",
+                toggleActions: "play none none none",
+                start: "top, +=500",
+                end: "+=200"
+            },
+            duration: .3,
+            rotation: -25,
+            scale: 0.7,
+            autoAlpha: 0
+        });
+
+        gsap.from("#porto_2", {
+            scrollTrigger: {
+                trigger: "#porto_2",
+                toggleActions: "play none none none",
+                start: "top, +=500",
+                // markers: true,
+                end: "+=200"
+            },
+            duration: .3,
+            rotation: -25,
+            scale: 0.7,
+            autoAlpha: 0
+        });
+
+
+        gsap.from("#porto_3", {
+            scrollTrigger: {
+                trigger: "#porto_3",
+                toggleActions: "play none none none",
+                start: "top, +=500",
+                end: "+=200"
+            },
+            duration: .3,
+            rotation: -25,
+            scale: 0.7,
+            autoAlpha: 0
+        });
+
+
+    }
+
+    render (){
     return (
         <div>
             <section className={s.section_3}>
-                <h2 className={s.h2}>My portfolio</h2>
+                <h2 id="s3h2" className={s.h2}>My portfolio</h2>
                 <div className={s.portfolio_items}>
-                    <div className={s.portfolio_item}>
+                    <div id="porto_1" className={s.portfolio_item}>
                         <div className="">
                             <h3>Burger Builder</h3>
                             <p>This project is build with React and Redux-thunk, has user authentiacation and backend at firebase. Users can sign in or login, create orders. Orders are stored in the backend.</p>
@@ -22,7 +91,7 @@ function Section_3() {
                             Go to Burger Builder
                         </a>
                     </div>
-                    <div className={s.portfolio_item}>
+                    <div id="porto_2" className={s.portfolio_item}>
                         
                         <div className="">
                             <h3>Movie DB</h3>
@@ -37,7 +106,7 @@ function Section_3() {
                             Go to Movie DB
                         </a>
                     </div>
-                    <div className={s.portfolio_item}>
+                    <div id="porto_3" className={s.portfolio_item}>
                         <div className="">
                             <h3>Diletant</h3>
                             <p>This project is build with React and Redux, it uses hardcoded data. Data can be filtered and searched through. Redux store is used as the single source of truth.</p>
@@ -56,6 +125,7 @@ function Section_3() {
             </section>
         </div>
     )
+    }
 }
 
 export default Section_3

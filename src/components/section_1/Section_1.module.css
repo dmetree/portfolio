@@ -144,28 +144,28 @@
 .comet_one {
     width: 5vw;
     position: absolute;
-    top: 12%;
-    left: 48%;
+    top: 15%;
+    left: 47%;
     z-index: -4;
-    opacity: .7;
+    opacity: .4;
 }
 
 .comet_two {
     width: 5vw;
     position: absolute;
     top: 15%;
-    left: 50%;
+    left: 47%;
     z-index: -4;
-    opacity: .7;
+    opacity: .4;
 }
 
 .comet_three {
     width: 5vw;
     position: absolute;
     top: 15%;
-    left: 46%;
+    left: 47%;
     z-index: -4;
-    opacity: .7;
+    opacity: .4;
 }
 
 @media only screen and (max-width: 1240px) {
@@ -185,5 +185,8 @@
     }
     .chat_svg {
         height: 20px;
+    }
+    .comet_one, .comet_two, .comet_three {
+        width: 12vw;
     }
 }

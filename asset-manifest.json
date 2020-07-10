@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.69f13259.chunk.css",
-    "main.js": "/portfolio/static/js/main.49d2f005.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.49d2f005.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b251f50a.chunk.css",
+    "main.js": "/portfolio/static/js/main.bffdf24f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bffdf24f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.cc1e1739.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.cc1e1739.js.map",
-    "static/js/2.37c717b4.chunk.js": "/portfolio/static/js/2.37c717b4.chunk.js",
-    "static/js/2.37c717b4.chunk.js.map": "/portfolio/static/js/2.37c717b4.chunk.js.map",
+    "static/js/2.017fa980.chunk.js": "/portfolio/static/js/2.017fa980.chunk.js",
+    "static/js/2.017fa980.chunk.js.map": "/portfolio/static/js/2.017fa980.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.50665449dfd77013aa962ab584436423.js": "/portfolio/precache-manifest.50665449dfd77013aa962ab584436423.js",
+    "precache-manifest.be86b046be8322154d9f5ff7c6917db8.js": "/portfolio/precache-manifest.be86b046be8322154d9f5ff7c6917db8.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.69f13259.chunk.css.map": "/portfolio/static/css/main.69f13259.chunk.css.map",
-    "static/js/2.37c717b4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.37c717b4.chunk.js.LICENSE.txt",
-    "static/js/main.49d2f005.chunk.js.LICENSE.txt": "/portfolio/static/js/main.49d2f005.chunk.js.LICENSE.txt",
+    "static/css/main.b251f50a.chunk.css.map": "/portfolio/static/css/main.b251f50a.chunk.css.map",
+    "static/js/2.017fa980.chunk.js.LICENSE.txt": "/portfolio/static/js/2.017fa980.chunk.js.LICENSE.txt",
+    "static/js/main.bffdf24f.chunk.js.LICENSE.txt": "/portfolio/static/js/main.bffdf24f.chunk.js.LICENSE.txt",
     "static/media/Dmitriy2020_circle.png": "/portfolio/static/media/Dmitriy2020_circle.ffa31b66.png",
     "static/media/arrow.svg": "/portfolio/static/media/arrow.d2ec9ff0.svg",
     "static/media/chat.svg": "/portfolio/static/media/chat.5b2a5d48.svg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cc1e1739.js",
-    "static/js/2.37c717b4.chunk.js",
-    "static/css/main.69f13259.chunk.css",
-    "static/js/main.49d2f005.chunk.js"
+    "static/js/2.017fa980.chunk.js",
+    "static/css/main.b251f50a.chunk.css",
+    "static/js/main.bffdf24f.chunk.js"
   ]
 }

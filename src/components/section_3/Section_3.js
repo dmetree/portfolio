@@ -68,7 +68,18 @@ class Section_3 extends Component {
             autoAlpha: 0
         });
 
-
+        gsap.from("#porto_4", {
+            scrollTrigger: {
+                trigger: "#porto_4",
+                toggleActions: "play none none none",
+                start: "top, +=500",
+                end: "+=200"
+            },
+            duration: .3,
+            rotation: -25,
+            scale: 0.7,
+            autoAlpha: 0
+        });
     }
 
     render (){
@@ -126,7 +137,7 @@ class Section_3 extends Component {
                             </a>
                         </div>
 
-                        <div id="porto_1" className={s.portfolio_item}>
+                        <div id="porto_4" className={s.portfolio_item}>
                             <div className="">
                                 <h3>Burger Builder</h3>
                                 <p>This project is build with React and Redux-thunk, has user authentiacation and backend at firebase. Users can sign in or login, create orders. Orders are stored in the backend.</p>

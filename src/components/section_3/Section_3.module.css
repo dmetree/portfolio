@@ -14,8 +14,10 @@
 
 .portfolio_items {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: flex-start;
+
 }
 
 .portfolio_item {

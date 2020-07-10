@@ -23,8 +23,8 @@ class Section_3 extends Component {
                 toggleActions: "play none none none",
                 start: "top, +=500"
             },
-            opacity: 0,
-            y: 60,
+            autoAlpha: 0,
+            x: -80
         });  
 
         gsap.from("#porto_1", {
@@ -77,20 +77,22 @@ class Section_3 extends Component {
             <section className={s.section_3}>
                 <h2 id="s3h2" className={s.h2}>My portfolio</h2>
                 <div className={s.portfolio_items}>
+                    
                     <div id="porto_1" className={s.portfolio_item}>
                         <div className="">
-                            <h3>Burger Builder</h3>
-                            <p>This project is build with React and Redux-thunk, has user authentiacation and backend at firebase. Users can sign in or login, create orders. Orders are stored in the backend.</p>
+                            <h3>Chat App</h3>
+                            <p>Is build with React and socket.is, has user authentiacation and backend at Node.js. Users can sign in and chat.</p>
                         </div>
                         <a
                             className={s.project_link}
-                            href="https://dmetree.github.io/react-burger/"
+                            href="https://react-chatting.netlify.app"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            Go to Burger Builder
+                            Go to Chat App
                         </a>
                     </div>
+
                     <div id="porto_2" className={s.portfolio_item}>
                         
                         <div className="">
@@ -106,22 +108,43 @@ class Section_3 extends Component {
                             Go to Movie DB
                         </a>
                     </div>
-                    <div id="porto_3" className={s.portfolio_item}>
-                        <div className="">
-                            <h3>Diletant</h3>
-                            <p>This project is build with React and Redux, it uses hardcoded data. Data can be filtered and searched through. Redux store is used as the single source of truth.</p>
-                        </div>
-                        <a
-                            className={s.project_link}
-                            href="https://dmetree.github.io/tt-diletant/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Go to Diletant
-                        </a>
-                    </div>
-                </div>
 
+
+                    <div className={s.portfolio_items}>
+                        <div id="porto_3" className={s.portfolio_item}>
+                            <div className="">
+                                <h3>Diletant</h3>
+                                <p>This project is build with React and Redux, it uses hardcoded data. Data can be filtered and searched through. Redux store is used as the single source of truth.</p>
+                            </div>
+                            <a
+                                className={s.project_link}
+                                href="https://dmetree.github.io/tt-diletant/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Go to Diletant
+                            </a>
+                        </div>
+
+                        <div id="porto_1" className={s.portfolio_item}>
+                            <div className="">
+                                <h3>Burger Builder</h3>
+                                <p>This project is build with React and Redux-thunk, has user authentiacation and backend at firebase. Users can sign in or login, create orders. Orders are stored in the backend.</p>
+                            </div>
+                            <a
+                                className={s.project_link}
+                                href="https://dmetree.github.io/react-burger/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Go to Burger Builder
+                        </a>
+                        </div>
+
+                    </div>
+
+
+                </div>
             </section>
         </div>
     )

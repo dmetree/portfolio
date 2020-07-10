@@ -21,7 +21,7 @@ class Section_4 extends Component {
             scrollTrigger: {
                 trigger: "#workTogether",
                 toggleActions: "play none none none",
-                start: "top, +=500",
+                start: "top, 80%",
                 end: "+=200"
             },
             duration: .3,
@@ -76,7 +76,7 @@ class Section_4 extends Component {
                         <img className={s.media_item} src={Email} alt="Email" />
                     </a>
                 </div>
-                <p className={s.copyright}>&copy; Created by me</p>
+                <p className={s.copyright}>&copy; Created with React by me </p>
             </section>
         </div>
     )

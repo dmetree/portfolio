@@ -21,8 +21,9 @@ class Section_2 extends Component {
                 // scrub - animation follows mouse moves
                 start: "top, +=500"
             }, 
-            opacity: 0, 
-            scale: .3 
+            opacity: 0,  
+            autoAlpha: 0,
+            x: -80
         });   
         
 

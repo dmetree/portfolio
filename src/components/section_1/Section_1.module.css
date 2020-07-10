@@ -106,6 +106,7 @@
     transition: color 0.5s ease;
     opacity: .9;
     outline: none;
+    cursor: pointer;
 }
 
 .intro_btn:hover {
@@ -144,8 +145,8 @@
 .comet_one {
     width: 5vw;
     position: absolute;
-    top: 15%;
-    left: 47%;
+    top: 12%;
+    left: 47.5vw;
     z-index: -4;
     opacity: .4;
 }
@@ -153,8 +154,8 @@
 .comet_two {
     width: 5vw;
     position: absolute;
-    top: 15%;
-    left: 47%;
+    top: 12%;
+    left: 47.5vw;
     z-index: -4;
     opacity: .4;
 }
@@ -162,8 +163,8 @@
 .comet_three {
     width: 5vw;
     position: absolute;
-    top: 15%;
-    left: 47%;
+    top: 12%;
+    left: 47.5vw;
     z-index: -4;
     opacity: .4;
 }
@@ -187,6 +188,7 @@
         height: 20px;
     }
     .comet_one, .comet_two, .comet_three {
+        left: 44vw;
         width: 12vw;
     }
 }

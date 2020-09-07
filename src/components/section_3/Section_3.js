@@ -92,7 +92,7 @@ class Section_3 extends Component {
                     <div id="porto_1" className={s.portfolio_item}>
                         <div className="">
                             <h3>Chat App</h3>
-                            <p>Is build with React and socket.is, has user authentiacation and backend at Node.js. Users can sign in and chat.</p>
+                            <p>Is build with React and Socket.io, and backend on Node.js. Users can sign in and chat here.</p>
                         </div>
                         <a
                             className={s.project_link}

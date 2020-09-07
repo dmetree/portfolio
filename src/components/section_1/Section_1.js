@@ -13,7 +13,6 @@ import UFO3 from '../../assets/imgs/ufo_bird3.svg'
 
 class Section_1 extends Component {
     componentDidMount() {
-        // gsap.registerPlugin(ScrollTrigger);
         gsap.registerPlugin(ScrollToPlugin);
 
         let animateText = new gsap.timeline(),

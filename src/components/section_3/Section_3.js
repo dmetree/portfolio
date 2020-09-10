@@ -80,6 +80,19 @@ class Section_3 extends Component {
             scale: 0.7,
             autoAlpha: 0
         });
+
+        gsap.from("#porto_5", {
+            scrollTrigger: {
+                trigger: "#porto_5",
+                toggleActions: "play none none none",
+                start: "top, +=500",
+                end: "+=200"
+            },
+            duration: .3,
+            rotation: -25,
+            scale: 0.7,
+            autoAlpha: 0
+        });
     }
 
     render (){

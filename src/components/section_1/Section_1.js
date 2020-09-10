@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import s from './Section_1.module.css'
-import SplitText from './../../js/SplitText'
 import { gsap } from "gsap";
+import SplitText from './../../js/SplitText'
 import ScrollToPlugin from './../../js/ScrollToPlugin'
 
 import chatIcon from '../../assets/imgs/chat.svg'

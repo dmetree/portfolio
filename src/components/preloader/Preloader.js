@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import s from './Preloader.module.css'
 import Medal from '../../assets/imgs/medal.svg'
-import { gsap, } from "gsap"
+import { gsap } from "gsap"
 
 
 

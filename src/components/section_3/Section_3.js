@@ -89,6 +89,7 @@ class Section_3 extends Component {
                 <h2 id="s3h2" className={s.h2}>My portfolio</h2>
                 <div className={s.portfolio_items}>
                     
+                    
                     <div id="porto_1" className={s.portfolio_item}>
                         <div className="">
                             <h3>Chat App</h3>
@@ -152,8 +153,24 @@ class Section_3 extends Component {
                         </a>
                         </div>
 
+                        <div id="porto_5" className={s.portfolio_item}>
+                            <div className="">
+                                <h3>Life Game</h3>
+                                <p>This project is built with React hooks and has some nice animatins. The idea of the game belongs to Vladimir Baskakov.</p>
+                            </div>
+                            <a
+                                className={s.project_link}
+                                href="https://dmetree.github.io/life-game/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Go to Life Game
+                            </a>
+                        </div>
+
                     </div>
 
+                    
 
                 </div>
             </section>

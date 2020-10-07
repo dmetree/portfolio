@@ -3,7 +3,7 @@ import s from './Section_2.module.css'
 import { gsap, } from "gsap";
 import ScrollTrigger from './../../js/ScrollTrigger'
 
-import MyImg from '../../assets/imgs/Dmitriy2020_circle.png'
+import MyImg from '../../assets/imgs/Dmitriy_circle.png'
 import Medal from '../../assets/imgs/medal.svg'
 
 class Section_2 extends Component {

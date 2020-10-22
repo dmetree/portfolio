@@ -126,7 +126,6 @@ const Section_3 = () => {
     }) 
 
 
-
     return (
         <div>
             <section className={s.section_3}>

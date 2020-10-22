@@ -1,17 +1,15 @@
-import React, { Component } from 'react'
-
+import React, { useEffect } from 'react'
 import s from './Section_3.module.css'
 import { gsap, } from "gsap"
 import ScrollTrigger from './../../js/ScrollTrigger'
-import SplitText from './../../js/SplitText'
 import { projects } from './ProjectsData'
 
 
 
-class Section_3 extends Component {
+const Section_3 = () => {
+    gsap.registerPlugin(ScrollTrigger);
 
-    componentDidMount() {
-        gsap.registerPlugin(ScrollTrigger);
+    useEffect(() => {
 
         gsap.from("#s3h2", {
             scrollTrigger: {
@@ -89,10 +87,25 @@ class Section_3 extends Component {
             scale: 0.7,
             autoAlpha: 0
         });
-    }
+
+         gsap.from("#porto_6", {
+            scrollTrigger: {
+                trigger: "#porto_5",
+                toggleActions: "play none none none",
+                start: "top, +=500",
+                end: "+=200"
+            },
+            duration: .3,
+            rotation: -25,
+            scale: 0.7,
+            autoAlpha: 0
+        });
+    }, [])
 
 
-render() {
+
+
+
     let itemsList = projects.map(project => {
         return(
             <div id={project.id} className={s.portfolio_item}>
@@ -124,7 +137,6 @@ render() {
             </section>
         </div>
     )
-}
 }
 
 export default Section_3

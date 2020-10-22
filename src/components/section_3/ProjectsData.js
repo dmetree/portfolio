@@ -29,4 +29,10 @@ export const projects = [
         description: 'Is built with React hooks and has some nice animatins. The idea of the game is inspired by Vladimir Baskakov. I`m still figuring out how to make it better',
         link: 'https://dmetree.github.io/life-game/'
     },
+    {
+        id: 'porto_6',
+        name: 'DevStars',
+        description: 'A social net for webDevelopers. One can create an account, fill in data about work, exp and education, make posts and comment on post of other devs or just see a list of devs.',
+        link: 'https://boiling-sands-29677.herokuapp.com/'
+    },
 ]

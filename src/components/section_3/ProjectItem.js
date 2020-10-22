@@ -15,7 +15,7 @@ function ProjectItem({ name, description, link }) {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Go to Chat App
+                    Go to {name}
                         </a>
             </div>
         </Fragment>

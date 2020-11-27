@@ -90,7 +90,19 @@ const Section_3 = () => {
 
          gsap.from("#porto_6", {
             scrollTrigger: {
-                trigger: "#porto_5",
+                trigger: "#porto_6",
+                toggleActions: "play none none none",
+                start: "top, +=500",
+                end: "+=200"
+            },
+            duration: .3,
+            rotation: -25,
+            scale: 0.7,
+            autoAlpha: 0
+        });
+        gsap.from("#porto_7", {
+            scrollTrigger: {
+                trigger: "#porto_7",
                 toggleActions: "play none none none",
                 start: "top, +=500",
                 end: "+=200"
@@ -104,11 +116,11 @@ const Section_3 = () => {
 
 
 
+    
 
-
-    let itemsList = projects.map(project => {
+    let itemsList = projects.slice(0).reverse().map(project => {
         return(
-            <div id={project.id} className={s.portfolio_item}>
+            <div key={project.id} id={project.id} className={s.portfolio_item}>
                 <div className="">
                     <h3>{project.name}</h3>
                     <p>{project.description}</p>

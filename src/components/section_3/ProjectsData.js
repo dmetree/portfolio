@@ -35,4 +35,10 @@ export const projects = [
         description: 'A social net for webDevelopers. One can create an account, fill in data about work, exp and education, make posts and comment on post of other devs or just see a list of devs.',
         link: 'https://boiling-sands-29677.herokuapp.com/'
     },
+    {
+        id: 'porto_7',
+        name: 'It Insiders',
+        description: 'A landing page build on React with nice animaitons made with GSAP and CSS.',
+        link: 'https://it-insiders.tech/'
+    },
 ]

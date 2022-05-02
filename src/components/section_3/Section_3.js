@@ -112,7 +112,32 @@ const Section_3 = () => {
             scale: 0.7,
             autoAlpha: 0
         });
+        gsap.from("#porto_8", {
+            scrollTrigger: {
+                trigger: "#porto_8",
+                toggleActions: "play none none none",
+                start: "top, +=500",
+                end: "+=200"
+            },
+            duration: .3,
+            rotation: -25,
+            scale: 0.7,
+            autoAlpha: 0
+        });
+        gsap.from("#porto_9", {
+            scrollTrigger: {
+                trigger: "#porto_9",
+                toggleActions: "play none none none",
+                start: "top, +=500",
+                end: "+=200"
+            },
+            duration: .3,
+            rotation: -25,
+            scale: 0.7,
+            autoAlpha: 0
+        });
     }, [])
+
 
 
 

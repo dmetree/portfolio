@@ -37,8 +37,21 @@ export const projects = [
     },
     {
         id: 'porto_7',
-        name: 'It Insiders',
-        description: 'A landing page build on React with nice animaitons made with GSAP and CSS.',
-        link: 'https://it-insiders.tech/'
+        name: 'CryptoStore',
+        description: 'A catalogue of businesses accepting crypto for their services. React / Firebase',
+        link: 'https://crypto-store-9e8de.web.app/'
     },
+    {
+        id: 'porto_8',
+        name: 'CryptoGuide',
+        description: 'A personal website + affiliate program. React / Firebase auth :: firestore :: hosting',
+        link:  'https://crypto-guide-867b0.web.app/'
+    },
+    {
+        id: 'porto_9',
+        name: 'Coryphoena',
+        description: 'Ecommerce website. Internent store. React / Hooks / Firebase: auth :: firestore :: react-storage :: react-hosting',
+        link:  'https://coryphaena-42180.web.app/'
+    },
+   
 ]
